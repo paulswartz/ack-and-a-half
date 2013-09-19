@@ -247,8 +247,8 @@ confirmed.  If t, then always prompt for the directory to use."
 
 (defun ack-and-a-half-create-type (extensions)
   (list "--type-set"
-        (concat "ack-and-a-half-custom-type=" (mapconcat 'identity extensions ","))
-        "--type" "ack-and-a-half-custom-type"))
+        (concat "ack_and_a_half_custom_type=" (mapconcat 'identity extensions ","))
+        "--type" "ack_and_a_half_custom_type"))
 
 (defun ack-and-a-half-type-for-major-mode (mode)
   "Return the --type and --type-set arguments to use with ack for major mode MODE."
